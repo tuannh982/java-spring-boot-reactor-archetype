@@ -14,6 +14,9 @@ public class DefaultLocaleContextResolver extends AcceptHeaderLocaleContextResol
         for (String locale : locales) {
             lst.add(new Locale(locale));
         }
+        if (lst.size() > 0) {
+            this.setDefaultLocale(lst.get(0));
+        }
         this.setSupportedLocales(lst);
     }
 }
