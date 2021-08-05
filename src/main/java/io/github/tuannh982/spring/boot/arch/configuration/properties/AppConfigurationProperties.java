@@ -11,6 +11,4 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfigurationProperties {
     @Value("${app.locale}")
     private String[] locales;
-    @Value("${app.locales[0]}")
-    private String defaultLocale;
 }
