@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties(prefix = "app")
 @Data
 public class AppConfigurationProperties {
-    @Value("${app.locale}")
+    @Value("${app.locales}")
     private String[] locales;
 }
