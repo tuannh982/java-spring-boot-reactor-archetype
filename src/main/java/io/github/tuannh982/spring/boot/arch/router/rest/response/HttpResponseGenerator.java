@@ -36,21 +36,20 @@ public class HttpResponseGenerator {
         return success(data, locale, null);
     }
 
-    public <T> ResponseEntity<GeneralResponse<T>> fail(String code, T data, Locale locale, Map<String, String> values) {
-        ResponseStatusCode responseStatusCode = ResponseStatusCode.get(code);
+    public <T> ResponseEntity<GeneralResponse<T>> fail(ResponseStatusCode responseStatusCode, T data, Locale locale, Map<String, String> values) {
         GeneralResponse<T> response = new GeneralResponse<>(responseStatus(responseStatusCode.getResponseCode(), locale, values), data);
         return ResponseEntity.status(responseStatusCode.getHttpCode()).body(response);
     }
 
-    public <T> ResponseEntity<GeneralResponse<T>> fail(String code, Locale locale, Map<String, String> values) {
-        return fail(code, null, locale, values);
+    public <T> ResponseEntity<GeneralResponse<T>> fail(ResponseStatusCode responseStatusCode, Locale locale, Map<String, String> values) {
+        return fail(responseStatusCode, null, locale, values);
     }
 
-    public <T> ResponseEntity<GeneralResponse<T>> fail(String code, Locale locale) {
-        return fail(code, null, locale, null);
+    public <T> ResponseEntity<GeneralResponse<T>> fail(ResponseStatusCode responseStatusCode, Locale locale) {
+        return fail(responseStatusCode, null, locale, null);
     }
 
-    public <T> ResponseEntity<GeneralResponse<T>> fail(String code, T data, Locale locale) {
-        return fail(code, data, locale, null);
+    public <T> ResponseEntity<GeneralResponse<T>> fail(ResponseStatusCode responseStatusCode, T data, Locale locale) {
+        return fail(responseStatusCode, data, locale, null);
     }
 }
