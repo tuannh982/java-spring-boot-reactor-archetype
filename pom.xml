@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.tuannh982</groupId>
-    <artifactId>java-spring-boot-archetype</artifactId>
+    <artifactId>java-spring-boot-reactor-archetype</artifactId>
     <version>0.1.0</version>
     <name>${project.groupId}:${project.artifactId}</name>
 

@@ -1,4 +1,4 @@
-package io.github.tuannh982.spring.boot.arch.router.rest.response;
+package io.github.tuannh982.spring.boot.reactor.arch.router.rest.response;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;

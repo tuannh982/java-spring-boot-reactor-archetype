@@ -1,4 +1,4 @@
-package io.github.tuannh982.spring.boot.arch.component;
+package io.github.tuannh982.spring.boot.reactor.arch.component;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolver;

@@ -1,4 +1,4 @@
-package io.github.tuannh982.spring.boot.arch.configuration.properties;
+package io.github.tuannh982.spring.boot.reactor.arch.configuration.properties;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

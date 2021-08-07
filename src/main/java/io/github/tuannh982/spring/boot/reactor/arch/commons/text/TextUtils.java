@@ -1,4 +1,4 @@
-package io.github.tuannh982.spring.boot.arch.commons.text;
+package io.github.tuannh982.spring.boot.reactor.arch.commons.text;
 
 import lombok.NoArgsConstructor;
 import org.apache.commons.text.StringSubstitutor;

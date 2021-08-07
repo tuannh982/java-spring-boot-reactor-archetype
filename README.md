@@ -1,3 +1,1 @@
-# Java Spring Boot archetype
-
-#### focused Spring Webflux
+# Java Spring Boot Reactor archetype

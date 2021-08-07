@@ -1,4 +1,4 @@
-package io.github.tuannh982.spring.boot.arch.factory;
+package io.github.tuannh982.spring.boot.reactor.arch.factory;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;

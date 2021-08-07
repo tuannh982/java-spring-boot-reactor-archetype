@@ -1,10 +1,10 @@
-package io.github.tuannh982.spring.boot.arch.router.rest;
+package io.github.tuannh982.spring.boot.reactor.arch.router.rest;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.github.tuannh982.spring.boot.arch.router.rest.response.GeneralResponse;
-import io.github.tuannh982.spring.boot.arch.router.rest.response.ResponseStatus;
-import io.github.tuannh982.spring.boot.arch.router.rest.response.ResponseStatusCode;
+import io.github.tuannh982.spring.boot.reactor.arch.router.rest.response.GeneralResponse;
+import io.github.tuannh982.spring.boot.reactor.arch.router.rest.response.ResponseStatus;
+import io.github.tuannh982.spring.boot.reactor.arch.router.rest.response.ResponseStatusCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.annotation.Order;
 import org.springframework.core.io.buffer.DataBuffer;

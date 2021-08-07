@@ -1,6 +1,6 @@
-package io.github.tuannh982.spring.boot.arch.router.rest.response;
+package io.github.tuannh982.spring.boot.reactor.arch.router.rest.response;
 
-import io.github.tuannh982.spring.boot.arch.commons.text.TextUtils;
+import io.github.tuannh982.spring.boot.reactor.arch.commons.text.TextUtils;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.http.ResponseEntity;
